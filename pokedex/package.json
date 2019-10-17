@@ -1,25 +1,25 @@
 {
-  "name": "pokedex",
+  "name": "helloworld",
   "version": "1.0.0",
-  "description": "Pokedex de pokemones",
+  "description": "this is a test",
   "main": "index.js",
-  "dependencies": {
-    "body-parser": "^1.19.0",
-    "express": "^4.17.1",
-    "morgan": "^1.9.1",
-    "mysql": "^2.17.1",
-    "nodemon": "^1.19.3"
-  },
-  "devDependencies": {},
   "scripts": {
     "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "pokemon",
-    "pokedex",
-    "poke"
+    "express",
+    "workshop",
+    "javascript",
+    "mysql"
   ],
-  "author": "Pablo SS",
-  "license": "ISC"
+  "author": "Mauricio IC",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "morgan": "^1.9.1",
+    "mysql": "^2.17.1",
+    "nodemon": "^1.19.2"
+  }
 }
